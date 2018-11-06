@@ -1,4 +1,4 @@
-public class driver{
+public class Driver{
   //Printing Methods
   public static String printArray(int[] ary){
     if (ary.length == 0){
@@ -15,8 +15,7 @@ public class driver{
     for (int x = 0; x < ary.length; x++){
       output += "  " + printArray(ary[x]);
       if (x != ary.length - 1){
-       output += ",\n";
-      }
+       output += ",\n";}
       else output += "\n";
     }
     return output + "]";

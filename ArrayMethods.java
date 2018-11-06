@@ -43,7 +43,8 @@ public class ArrayMethods{
       for (int i = 1; i < rows.length; i++){
         if (rows[i] != rows[i - 1]) {
           return false;
-        }}
+        }
+      }
       return true;
     }
     public static boolean isColumnMagic(int[][] ary){
